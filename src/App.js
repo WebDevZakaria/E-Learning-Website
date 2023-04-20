@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
+// import aos
+// import aos css
+
+// import components
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Overview from './components/Overview';
+import Brands from './components/Brands';
+import Feature1 from './components/Feature1';
+import Feature2 from './components/Feature2';
+import Feature3 from './components/Feature3';
+import Product from './components/Product';
+import Pricing from './components/Pricing';
+import Testimonials from './components/Testimonials';
+import Cta from './components/Cta';
+import Footer from './components/Footer';
+
+const App = () => {
+  // initialize aos
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='overflow-hidden'>
+      <Header />
+      <Hero />
+      <Overview />
+      <Brands />
+      <Feature1 />
+      <Feature2 />
+      <Feature3 />
+      <Product />
+      <Pricing />
+      <Testimonials />
+      <Cta />
+      <Footer />
+      {/* <div className='h-[4000px]'></div> */}
     </div>
   );
-}
+};
 
 export default App;

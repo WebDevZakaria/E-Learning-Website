@@ -1,7 +1,8 @@
 // import images
-import LogoImg from '../src/assets/img/header/logo.svg';
+
+import LogoImg from '../src/assets/img/header/logo.png';
 import HeroImg from '../src/assets/img/hero/image.svg';
-import OverviewProductImg from '../src/assets/img/overview/product.svg';
+import OverviewProductImg from '../src/assets/img/overview/overvier.jpg';
 import FacebookImg from '../src/assets/img/overview/brands/facebook.svg';
 import GoogleImg from '../src/assets/img/overview/brands/google.svg';
 import CocaColaImg from '../src/assets/img/overview/brands/coca-cola.svg';
@@ -27,6 +28,13 @@ import CtaImg2 from '../src/assets/img/cta/image2.svg';
 import FacebookIcon from '../src/assets/img/copyright/facebook.svg';
 import TwitterIcon from '../src/assets/img/copyright/twitter.svg';
 import LinkedinIcon from '../src/assets/img/copyright/linkedin.svg';
+
+import ReactJs from '../src/assets/img/product/cards/reactjs.jpg'
+
+import Graphql from '../src/assets/img/product/cards/Graphql.jpg'
+
+import Django from '../src/assets/img/product/cards/django.jpg'
+import html5 from '../src/assets/img/product/cards/html5.jpg'
 
 export const header = {
   logo: LogoImg,
@@ -110,32 +118,86 @@ export const product = {
     'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.',
   cards: [
     {
+      icon: Graphql,
+      title: 'GraphQl Full Courses',
+      subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
+      delay: 200,
+    },
+    {
+      icon: ReactJs,
+      title: 'React Js Cour',
+      subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
+      delay: 400,
+    },
+    {
+      icon: Django,
+      title: 'React Js Cour',
+      subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
+      delay: 400,
+    },
+    {
+      icon: html5,
+      title: 'React Js Cour',
+      subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
+      delay: 400,
+    },
+    {
+      icon: ReactJs,
+      title: 'React Js Cour',
+      subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
+      delay: 400,
+    },
+    
+  ],
+};
+
+
+
+
+
+
+export const products = {
+  title: 'The Product we work with.',
+  subtitle:
+    'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.',
+  cardss: [
+    {
       icon: CardIconImg1,
-      title: 'Cross platform',
+      title: 'Learn Anything From Anywhere ',
       subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
       delay: 200,
     },
     {
       icon: CardIconImg2,
-      title: 'Cloud server',
+      title: 'Purchase Now',
       subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
       delay: 400,
     },
     {
       icon: CardIconImg3,
-      title: 'Pure Javascript',
+      title: 'Save your Courses',
       subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
       delay: 600,
     },
   ],
 };
 
+
+
+
+
+
+
+
+
+
+
 export const pricing = {
   title: 'Choose your flexible plan.',
   cards: [
     {
-      icon: PricingIcon1,
-      title: 'Starter Plan',
+      icon:CardIconImg2 ,
+      title: '  React Js Cour',
       services: [
         { name: 'Store unlimited data' },
         { name: 'Export to pdf, xls, csv' },
@@ -182,7 +244,7 @@ export const testimonials = {
       message:
         'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
       image: AvatarImg1,
-      name: 'Cameron Williamson',
+      name: 'Reaxt',
       position: 'CEO',
       borderColor: '#FF7235',
     },

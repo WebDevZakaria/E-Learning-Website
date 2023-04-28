@@ -1,14 +1,14 @@
 // import images
 
 import LogoImg from '../src/assets/img/header/logo.png';
-import HeroImg from '../src/assets/img/hero/image.svg';
+import HeroImg from '../src/assets/img/hero/lerning.svg';
 import OverviewProductImg from '../src/assets/img/overview/overvier.jpg';
 import FacebookImg from '../src/assets/img/overview/brands/facebook.svg';
 import GoogleImg from '../src/assets/img/overview/brands/google.svg';
 import CocaColaImg from '../src/assets/img/overview/brands/coca-cola.svg';
 import LinkedInImg from '../src/assets/img/overview/brands/linkedin.svg';
 import SamsungImg from '../src/assets/img/overview/brands/samsung.svg';
-import Feature1Img from '../src/assets/img/features/feature1-img.svg';
+import Feature1Img from '../src/assets/img/features/take.svg';
 import Feature2Img from '../src/assets/img/features/feature2-img.svg';
 import Feature3Img from '../src/assets/img/features/feature3-img.svg';
 import ArrowRightImg from '../src/assets/img/features/arrow-right.svg';
@@ -23,8 +23,9 @@ import AvatarImg2 from '../src/assets/img/testimonial/avatar2.png';
 import AvatarImg3 from '../src/assets/img/testimonial/avatar3.png';
 import AvatarImg4 from '../src/assets/img/testimonial/avatar4.png';
 import AvatarImg5 from '../src/assets/img/testimonial/avatar5.png';
-import CtaImg1 from '../src/assets/img/cta/image1.svg';
-import CtaImg2 from '../src/assets/img/cta/image2.svg';
+import CtaImg1 from '../src/assets/img/cta/cta.svg';
+import CtaImg2 from '../src/assets/img/cta/dolar.svg';
+
 import FacebookIcon from '../src/assets/img/copyright/facebook.svg';
 import TwitterIcon from '../src/assets/img/copyright/twitter.svg';
 import LinkedinIcon from '../src/assets/img/copyright/linkedin.svg';
@@ -42,17 +43,17 @@ export const header = {
 };
 
 export const nav = [
-  { name: 'Features', href: '/' },
+  { name: 'courses', href: '/' },
   { name: 'About us', href: '/' },
-  { name: 'Pricing', href: '/' },
+  { name: 'Cart', href: '/' },
   { name: 'Feedback', href: '/' },
 ];
 
 export const hero = {
-  title: 'Track your Expenses to Save Money',
-  subtitle: 'Helps you to organize your income and expenses',
-  btnText: 'Try free demo',
-  compText: '— Web, iOS and Android',
+  title: 'Find The Best Courses To get Statrted ',
+  subtitle: 'Learn and Start Your Life ',
+  btnText: 'More',
+  compText: '— programming, marketing ,business',
   image: HeroImg,
 };
 
@@ -85,7 +86,7 @@ export const overview = {
 export const features = {
   feature1: {
     pretitle: 'Alwalys online',
-    title: 'Real-time support with cloud',
+    title: 'Learn Anything and Get Certificates',
     subtitle:
       'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
     btnLink: 'Learn more',
@@ -94,7 +95,7 @@ export const features = {
   },
   feature2: {
     pretitle: 'Free some cost',
-    title: 'Save cost for you and family',
+    title: 'save the courses anytime when you need',
     subtitle:
       'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
     btnLink: 'Learn more',
@@ -113,7 +114,7 @@ export const features = {
 };
 
 export const product = {
-  title: 'The Product we work with.',
+  title: 'Top Rated Courses.',
   subtitle:
     'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.',
   cards: [
@@ -125,25 +126,25 @@ export const product = {
     },
     {
       icon: ReactJs,
-      title: 'React Js Cour',
+      title: 'React Js Courses',
       subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
       delay: 400,
     },
     {
       icon: Django,
-      title: 'React Js Cour',
+      title: 'Django Courses',
       subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
       delay: 400,
     },
     {
       icon: html5,
-      title: 'React Js Cour',
+      title: 'HTML5 Courses',
       subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
       delay: 400,
     },
     {
       icon: ReactJs,
-      title: 'React Js Cour',
+      title: 'React Js Courses',
       subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
       delay: 400,
     },
@@ -284,9 +285,9 @@ export const testimonials = {
 };
 
 export const cta = {
-  title: '20M+ downloaded from 32 different countries',
-  subtitle: 'Try demo for 7 days with full features.',
-  btnText: 'Try free demo',
+  title: '5M+ People from  different countries',
+  subtitle: 'Take Action and find the est courses for you ',
+  btnText: 'Take course',
   img1: CtaImg1,
   img2: CtaImg2,
 };
@@ -295,11 +296,11 @@ export const footer = {
   logo: LogoImg,
   links: [
     { name: 'Home', href: '/' },
-    { name: 'About us', href: '/' },
-    { name: 'Careers', href: '/' },
-    { name: 'Pricing', href: '/' },
-    { name: 'Features', href: '/' },
-    { name: 'Blog', href: '/' },
+    { name: 'courses', href: '/' },
+    { name: 'about us', href: '/' },
+    { name: 'cart', href: '/' },
+    { name: 'Feadback', href: '/' },
+    
   ],
   legal: [
     { name: 'Terms of use', href: '/' },
@@ -327,7 +328,7 @@ export const copyright = {
     name: 'Contact us',
     href: '/',
   },
-  copyText: 'Copyright @ 2022 xpence',
+  copyText: 'Copyright @ 2023 zikoulearn',
   social: [
     { icon: FacebookIcon, href: '/' },
     { icon: TwitterIcon, href: '/' },

@@ -30,7 +30,7 @@ const App = () => {
       <Header />
       <Hero />
       <Overview />
-      <Brands />
+      
       <Feature1 />
       <Feature2 />
       <Product />
@@ -38,7 +38,7 @@ const App = () => {
       <Testimonials />
       <Cta />
       <Footer />
-       <div className='h-[4000px]'></div> 
+       <div className='h-[200px]'></div> 
     </div>
   );
 };
